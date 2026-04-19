@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="flex items-center gap-4">
+    			<div data-slot="skeleton" class="animate-pulse bg-muted h-12 w-12 rounded-full"></div>
+    			<div class="space-y-2">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-[250px]"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-[200px]"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="flex w-fit items-center gap-4">
+    			<div data-slot="skeleton" class="animate-pulse bg-muted size-10 shrink-0 rounded-full"></div>
+    			<div class="grid gap-2">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-[150px]"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-[100px]"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0 h-80">
+    		<div data-slot="card" data-size="default" class="group/card flex flex-col gap-4 overflow-hidden rounded-xl bg-card py-4 text-sm text-card-foreground ring-1 ring-foreground/10 has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:py-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl w-full max-w-xs">
+    			<div data-slot="card-header" class="group/card-header @container/card-header grid auto-rows-min items-start gap-1 rounded-t-xl px-4 group-data-[size=sm]/card:px-3 has-data-[slot=card-action]:grid-cols-[1fr_auto] has-data-[slot=card-description]:grid-rows-[auto_auto] [.border-b]:pb-4 group-data-[size=sm]/card:[.border-b]:pb-3">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-2/3"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-1/2"></div>
+    			</div>
+    			<div data-slot="card-content" class="px-4 group-data-[size=sm]/card:px-3">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted aspect-video w-full"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="flex w-full max-w-xs flex-col gap-2">
+    			<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-full"></div>
+    			<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-full"></div>
+    			<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-3/4"></div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="flex w-full max-w-xs flex-col gap-7">
+    			<div class="flex flex-col gap-3">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-20"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-8 w-full"></div>
+    			</div>
+    			<div class="flex flex-col gap-3">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-24"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-8 w-full"></div>
+    			</div>
+    			<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-8 w-24"></div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="ltr">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="flex w-full max-w-sm flex-col gap-2">
+    			<div class="flex gap-4">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 flex-1"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-24"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-20"></div>
+    			</div>
+    			<div class="flex gap-4">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 flex-1"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-24"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-20"></div>
+    			</div>
+    			<div class="flex gap-4">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 flex-1"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-24"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-20"></div>
+    			</div>
+    			<div class="flex gap-4">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 flex-1"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-24"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-20"></div>
+    			</div>
+    			<div class="flex gap-4">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 flex-1"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-24"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-20"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div data-slot="preview" dir="rtl" data-lang="ar">
+    	<div data-align="center" data-chromeless="false" class="preview relative flex h-72 w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start data-[chromeless=true]:h-auto data-[chromeless=true]:p-0">
+    		<div class="flex items-center gap-4" dir="rtl">
+    			<div data-slot="skeleton" class="animate-pulse bg-muted h-12 w-12 rounded-full"></div>
+    			<div class="space-y-2">
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-[250px]"></div>
+    				<div data-slot="skeleton" class="animate-pulse rounded-md bg-muted h-4 w-[200px]"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>
